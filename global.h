@@ -4,8 +4,8 @@
 #define MAX_LEN 30
 struct user{
     char name[MAX_LEN];
-    int highScore;
-    int totalScore;
+    float highScore;
+    float totalScore;
 }user[MAX_LEN];
 
 int userCounter=0;
