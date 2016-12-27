@@ -129,7 +129,7 @@ void addWinner()
     //save users scores
     for(i=1;i<=userCounter;i++)
     {
-        fprintf(fs,"%d %d\n",user[i].highScore,user[i].totalScore);
+        fprintf(fs,"%f %f\n",user[i].highScore,user[i].totalScore);
     }
     fs =fclose(fs);
 
@@ -238,7 +238,7 @@ void GetLeaderBoard()
     fs = fopen("Data\\usersScores.txt","r");
     for(i=1;i<=userCounter;i++)
     {
-        fscanf(fs,"%d %d",&user[i].highScore,&user[i].totalScore);
+        fscanf(fs,"%f %f",&user[i].highScore,&user[i].totalScore);
     }
     fs =fclose(fs);
 }

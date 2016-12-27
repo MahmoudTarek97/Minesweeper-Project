@@ -73,7 +73,7 @@ void gotoPosition(int goX,int goY){
 /*--------------------------sortUsers-----------------------------------------*/
 void sortUsers()
 {
-    int max =user[1].totalScore;
+    float max =user[1].totalScore;
     int i,qwe,maxIndex;
     for(i=1;i<=userCounter;i++)
     {
@@ -154,8 +154,8 @@ void printLeaderBoard()
     {
         printf("   |%-3d",i);
         printf(" |");  color(13); printf("%-30s",user[i].name); color(15);
-        printf("|%-20.3d        |",user[i].highScore);  color(13);
-        printf("%-20.3d",user[i].totalScore);  color(15); printf("|\n");
+        printf("|%-20.3f        |",user[i].highScore);  color(13);
+        printf("%-20.3f",user[i].totalScore);  color(15); printf("|\n");
 
     }
     printf("   +----+------------------------------+----------------------------+--------------------+\n");

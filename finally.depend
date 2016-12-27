@@ -85,12 +85,12 @@
 	"userfunctionthread.h"
 	"otherfunction.h"
 
-1482856446 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\global.h
+1482864223 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\global.h
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 
-1482856446 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\independentfunction.h
+1482867001 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\independentfunction.h
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
@@ -100,7 +100,7 @@
 	<pthread.h>
 	<winerror.h>
 
-1482856446 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\saveloadgetboardaddwiner.h
+1482866345 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\saveloadgetboardaddwiner.h
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
@@ -115,4 +115,51 @@
 1482848147 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\userfunctionthread.h
 
 1482840996 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\otherfunction.h
+
+1482848147 source:c:\users\mmm\downloads\finally\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+	<pthread.h>
+	"global.h"
+	"independentfunction.h"
+	"saveloadgetboardaddwiner.h"
+	"initialplay.h"
+	"select.h"
+	"userfunctionthread.h"
+	"otherfunction.h"
+
+1482864223 c:\users\mmm\downloads\finally\global.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1482866345 c:\users\mmm\downloads\finally\independentfunction.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+	<pthread.h>
+	<winerror.h>
+
+1482866345 c:\users\mmm\downloads\finally\saveloadgetboardaddwiner.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+
+1482847050 c:\users\mmm\downloads\finally\initialplay.h
+
+1482838752 c:\users\mmm\downloads\finally\select.h
+
+1482848147 c:\users\mmm\downloads\finally\userfunctionthread.h
+
+1482840996 c:\users\mmm\downloads\finally\otherfunction.h
 
