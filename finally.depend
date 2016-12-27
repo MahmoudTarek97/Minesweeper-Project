@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1482647535 source:c:\users\mmm\desktop\finally\dependentfunction.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+	<pthread.h>
+	"global.h"
+	<winerror.h>
+
+1482831428 c:\users\mmm\desktop\finally\global.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1482649321 c:\users\mmm\desktop\finally\dependentfunction.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+	<pthread.h>
+	<winerror.h>
+
+1482831249 source:c:\users\mmm\desktop\finally\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+	<pthread.h>
+	"global.h"
+	"independentfunction.h"
+	<winerror.h>
+	"saveloadgetboardaddwiner.h"
+	"initialplay.h"
+	"select.h"
+	"userfunctionthread.h"
+	"otherfunction.h"
+
+1482650051 c:\users\mmm\desktop\finally\saveloadgetboardaddwiner.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+	<winerror.h>
+
+1482713199 c:\users\mmm\desktop\finally\initialplay.h
+
+1482713522 c:\users\mmm\desktop\finally\independentfunction.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+	<pthread.h>
+	<winerror.h>
+
+1482714084 c:\users\mmm\desktop\finally\select.h
+
+1482831859 c:\users\mmm\desktop\finally\userfunctionthread.h
+
+1482831709 c:\users\mmm\desktop\finally\otherfunction.h
+
+1482848147 source:d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+	<pthread.h>
+	"global.h"
+	"independentfunction.h"
+	"saveloadgetboardaddwiner.h"
+	"initialplay.h"
+	"select.h"
+	"userfunctionthread.h"
+	"otherfunction.h"
+
+1482856446 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\global.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1482856446 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\independentfunction.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+	<pthread.h>
+	<winerror.h>
+
+1482856446 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\saveloadgetboardaddwiner.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+
+1482847050 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\initialplay.h
+
+1482838752 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\select.h
+
+1482848147 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\userfunctionthread.h
+
+1482840996 d:\csed 20\1st year\1st semester\6.0 programming\5 project\finally\otherfunction.h
+
