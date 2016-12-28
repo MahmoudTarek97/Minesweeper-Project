@@ -6,10 +6,10 @@ struct user{
     char name[MAX_LEN];
     float highScore;
     float totalScore;
-}user[MAX_LEN];
+}user[100];
 
 int userCounter=0;
-int startTime=0,endTime=0,TimeDiff=0,savedTimeDiff=0,orgDiff;
+time_t startTime=0,endTime=0,TimeDiff=0,savedTimeDiff=0,orgDiff;
 int lose=0;
 int win=0;
 int numberOfMines;
@@ -27,4 +27,3 @@ int i=0;
 int j=0;
 int ssd=0;
 time_t initial_t;
-
