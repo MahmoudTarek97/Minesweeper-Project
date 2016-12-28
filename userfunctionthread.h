@@ -598,15 +598,7 @@ gridNum[][MAX_LEN],int gridVisited[][MAX_LEN]){
             int i,j;
             printf("\n");
             i=0;j=0;
-              printf("\ngridNum Array\n");
-            for (i=0;i<Rows;i++)
-            {
-                for(j=0;j<Columns;j++)
-                {
-                    printf("%3d ",gridNum[i][j]);
-                }
-                printf("\n");
-            }
+            
             /////////////////////*/
         }
         pthread_join(tid, NULL);
