@@ -23,7 +23,7 @@ void *myThreadFun(void *vargp)
             {
                 timerr=timerr+1;
                 orgDiff=timerr;
-                if(deltay%20==0&&ssd==0)
+                if(deltay%60==0&&ssd==0)
                 {
                     int diffInMin = timerr/60;
                     int diffInSec = timerr%60;
