@@ -163,3 +163,49 @@
 
 1482840996 c:\users\mmm\downloads\finally\otherfunction.h
 
+1482906754 source:d:\csed 20\1st year\1st semester\6.0 programming\5 project\minesweeper-project-master\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+	<pthread.h>
+	"global.h"
+	"independentfunction.h"
+	"saveloadgetboardaddwiner.h"
+	"initialplay.h"
+	"select.h"
+	"userfunctionthread.h"
+	"otherfunction.h"
+
+1482906754 d:\csed 20\1st year\1st semester\6.0 programming\5 project\minesweeper-project-master\global.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1482942893 d:\csed 20\1st year\1st semester\6.0 programming\5 project\minesweeper-project-master\independentfunction.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+	<pthread.h>
+
+1482906754 d:\csed 20\1st year\1st semester\6.0 programming\5 project\minesweeper-project-master\saveloadgetboardaddwiner.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<windows.h>
+	<string.h>
+
+1482906754 d:\csed 20\1st year\1st semester\6.0 programming\5 project\minesweeper-project-master\initialplay.h
+
+1482906754 d:\csed 20\1st year\1st semester\6.0 programming\5 project\minesweeper-project-master\select.h
+
+1482906754 d:\csed 20\1st year\1st semester\6.0 programming\5 project\minesweeper-project-master\userfunctionthread.h
+
+1482906754 d:\csed 20\1st year\1st semester\6.0 programming\5 project\minesweeper-project-master\otherfunction.h
+
