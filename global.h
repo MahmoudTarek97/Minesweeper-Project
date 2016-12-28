@@ -27,4 +27,4 @@ int i=0;
 int j=0;
 int ssd=0;
 time_t initial_t;
-int yu=0;
+
