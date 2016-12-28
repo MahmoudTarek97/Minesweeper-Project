@@ -8,7 +8,6 @@
 /*----------------------------------addWinner---------------------------------*/
 void addWinner()
 {
-
     printf("\n\n    Have you ever won and registered ? Enter <l> to LOGIN \n"
            "    If you are a new player , Enter <r> to REGISTER\n"
            "    If you do not want it , Enter <b> to Back to MAIN MENU\n\n");
@@ -49,15 +48,15 @@ void addWinner()
         int i;
         for(i=1;i<=userCounter;i++)
         {
-            if(!strcmp(winnerName,user[i].name))
-            {
+            if(!strcmp(winnerName,user[i].name))    //check if he a registered user
+            {                                       //if that true
                 flag=1;
                 color(11);
                 printf("       Your new score has been added to your totalScore , check LEADERBOARD");
                 Sleep(1000);
                 color(15);
                 user[i].totalScore+=score;
-                if(score>user[i].highScore)
+                if(score>user[i].highScore)          //he might get a highScore
                     user[i].highScore=score;
                 break;
             }
