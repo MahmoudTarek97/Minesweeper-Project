@@ -1,3 +1,10 @@
+
+/*  +------------------------------------------------------+
+    |Minesweeper Game in C                                 |
+    |~CSED20 ~CS121 ~Fall2016 ~Final-Project               |
+    |This project Made By Mahmoud Tarek & Mohamed El-shazly|
+    +------------------------------------------------------+  */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -13,35 +20,35 @@
 #include"userfunctionthread.h"
 #include"otherfunction.h"
 
-/*--------------------------------main function-----------------------------*/
+/*--------------------------------main Function-----------------------------*/
 int main(){
-        color(15);
-        system("mode 150");
-        //welcome
-        if(firstWelcome==0)
-        {
-            char *NewDir = "Data";
-            CreateDirectory(NewDir,NULL);
-            color(11);
-            welcomeScreen();
-            color(15);
-        }
-        // some declarations :)
-        char gridView[MAX_LEN][MAX_LEN];
-        int gridNum[MAX_LEN][MAX_LEN];
-        int gridVisited[MAX_LEN][MAX_LEN];
-        int choice;
+        color(15);              //white (our default color)
+        system("mode 150");     //modify window size
 
-        // the main code
+        if(firstWelcome==0)     //if true that mean execute main function for first time
+        {                       //then the coming block of code is executed once only
+            char *NewDir = "Data";
+            CreateDirectory(NewDir,NULL);    //to store our .txt files in this folder later
+            color(11);             //lactic
+            welcomeScreen();
+            color(15);             //back to default
+        }
+
+        // some declarations :)
+        char gridView[MAX_LEN][MAX_LEN];    //shown grid array
+        int gridNum[MAX_LEN][MAX_LEN];      //real grid (developer grid) array
+        int gridVisited[MAX_LEN][MAX_LEN];  //to implement DFS function later
+        int choice;
         j=0;
-        GetLeaderBoard();
+
+        GetLeaderBoard();                   //get leaderBoard data from files
         mainMenu();
         choice = Selection();
         clear();
 
         if (choice ==1)     //New Game
             {
-                color(14);
+                color(14);               //yellow
                 printf("\n\n   NEW GAME\n   --------\n");
                 color(15);
                 printf("    Dimensions of your grid < Rows x Columns >\n");
@@ -50,12 +57,12 @@ int main(){
                 //scan Rows
                 while (1)
                 {
-                    color(10);
+                    color(10);          //green
                     printf("\n    -> Enter number of Rows : ");
                     color(15);
                     char gridRows[500];
                     readChoice(gridRows,MAX_LEN);
-                    fflush(stdin);
+                    fflush(stdin);      //delete unnecessary previous inputs
                     int Validity=numberCheck(gridRows,MAX_LEN);
                     if (Validity == 1 || Validity==2)
                         {
@@ -70,6 +77,7 @@ int main(){
                     }
                 }
                 printf("\n");
+
                 //scan Columns
                 while (1)
                 {
@@ -96,17 +104,17 @@ int main(){
                 color(15);
                 printf("\a");
                 clear();
-                time(&startTime);
+                time(&startTime);       //get time now (before playing)
                 endTime=startTime;
-                numberOfMines=1+((Rows*Columns)/10);
+                numberOfMines=1+((Rows*Columns)/10);        //calculate noOfMines
                 initializeGrid(Rows,Columns,gridView,gridNum,gridVisited);
                 printGrid(Rows,Columns,gridView);
-                userAction(Rows,Columns,gridView,gridNum,gridVisited);
+                userAction(Rows,Columns,gridView,gridNum,gridVisited);  //gamePlay loop
             }
         if (choice ==2)     //Load Game
             {
                 loadGame(gridNum,gridView,gridVisited);
-                if (Rows==0 /*||Columns ==0*/)
+                if (Rows==0 /*||Columns ==0*/)  //that mean the user didn't save any game before
                 {
                     printf("\n\n   you did not save any game yet!");
                     Sleep(1000);
@@ -119,10 +127,10 @@ int main(){
                 time(&startTime);
                 endTime=startTime;
                 printGrid(Rows,Columns,gridView);
-                debugGrid(Rows,Columns,gridNum);
+                debugGrid(Rows,Columns,gridNum);    //print realGrid in debugGrid.txt (for debugging)
                 userAction(Rows,Columns,gridView,gridNum,gridVisited);
             }
-        if (choice ==3)     //Leaderboard
+        if (choice ==3)     //LeaderBoard
             {
                 printLeaderBoard();
             }
@@ -144,7 +152,7 @@ int main(){
                 }
                 main();
             }
-        if (choice ==5)     //Exit
+        if (choice ==5)     //Exit Game
             {
                     printf("\n\n   Are you sure you want to Exit?\n");
                     char exitChoice[500];
@@ -159,7 +167,11 @@ int main(){
                             break;
                     }
                     if (exitChoice[0]=='y')
+                    {
                         printf("   GoodBye :)");
+                        Sleep(1000);
+                    }
+
                     else
                         main();
             }
