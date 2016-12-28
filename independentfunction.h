@@ -5,7 +5,6 @@
 #include <windows.h>
 #include <string.h>
 #include <pthread.h>
-#include <winerror.h>
 /*--------------------------------mainMenu function-----------------------------*/
 void mainMenu(){
         clear();
@@ -116,7 +115,7 @@ void showInstructoins()
     printf("\n\n   GAME RULES"
             "\n   ----------");
     color(15);
-    printf( "\n\n   You must customize your own minefield.\n"
+    printf( "\n   You must customize your own minefield.\n"
             "   At the beginning, open any cell in the minefield randomly to expose free space.\n"
             "   The numbers displayed show how many mines are adjacent to that cell.\n"
             "   Use your math skills and powers of deduction to identify where the mines must be.\n"
