@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #define MAX_LEN 30
+
 struct user{
     char name[MAX_LEN];
     float highScore;
