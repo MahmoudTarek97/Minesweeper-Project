@@ -42,7 +42,7 @@ void welcomeScreen()
            "   *    ::::::    :   :     ::::: :::::  :       :::::   ::   ::    *\n"
            "   *                                                                *\n"
            "   ******************************************************************\n");
-    printf("   Made By Mahmoud Tarek & Mohamed El-shazly
+    printf("   Made By Mahmoud Tarek & Mohamed El-shazly");
     printf("\n\n                       PRESS <ENTER> TO CONTINUE..");
     char c;
     c=getchar();
