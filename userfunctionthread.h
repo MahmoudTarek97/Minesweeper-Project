@@ -1,7 +1,4 @@
 
-
-
-
 /*-----------------------------------myThreadFunction-----------------------------*/
 void *myThreadFun(void *vargp)
 {
