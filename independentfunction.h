@@ -43,7 +43,7 @@ void welcomeScreen()
            "   *                                                                *\n"
            "   ******************************************************************\n");
     printf("   Made By Mahmoud Tarek & Mohamed El-shazly
-    printf("\n                       PRESS <ENTER> TO CONTINUE..");
+    printf("\n\n                       PRESS <ENTER> TO CONTINUE..");
     char c;
     c=getchar();
     while (c != '\n')
